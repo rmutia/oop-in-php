@@ -27,3 +27,10 @@ class Ball{
 
 } //end class
 
+$basket = new Ball('basket');
+print '<pre>';
+	var_dump($basket);
+print '</pre>';
+print 'Jenis bola: '.$basket->getType();
+$basket->rebound();
+$basket->thrown();
